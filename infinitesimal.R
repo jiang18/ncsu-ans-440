@@ -29,6 +29,7 @@ genotypes <- result$genotypes
 
 # 4) Draw histogram
 hist(genotypic_values, 
+     freq = FALSE,
      main = "Distribution of Genotypic Values",
      xlab = "Genotypic Value",
      ylab = "Frequency",
